@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>WPF_Calculator</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icon clock.png" />
+    <None Remove="icon.png" />
+    <None Remove="icon1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon clock.png" />
+    <Resource Include="icon.png" />
+    <Resource Include="icon1.png" />
+  </ItemGroup>
+
+</Project>
